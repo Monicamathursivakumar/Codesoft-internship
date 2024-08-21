@@ -18,6 +18,7 @@ Calculator Project:
 A fully functional calculator that performs basic arithmetic operations. This project allowed me to apply JavaScript to create interactive features and improve user experience.
 
 Technologies Used:
+
 HTML: For structuring and presenting the content of the web pages.
 CSS: For styling, layout, and ensuring the projects are visually appealing and responsive.
 JavaScript: Used specifically in the Calculator project to add dynamic functionality and interactivity.
