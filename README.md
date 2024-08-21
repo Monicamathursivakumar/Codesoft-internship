@@ -1,5 +1,6 @@
 # Codesoft-internship
 Hello, Everyone!
+
 Welcome to my "CodSoft" repository! During my online internship with CodSoft, I had the opportunity to work on several exciting projects, which I am thrilled to share with you.
 
 Projects Included:
