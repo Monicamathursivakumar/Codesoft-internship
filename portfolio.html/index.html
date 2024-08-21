@@ -1,0 +1,345 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <nav id="desktop-nav">
+      <div class="logo"> <p id="bag"><a href="C:\Users\mssiv\OneDrive\Desktop\portfolio.html\index.html">Portfolio</a></p></div>
+      <div>
+        <ul class="nav-links">
+          <li><a href="#about">About</a></li>
+          <li><a href="#experience">Experience</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#contact">Contact</a></li>
+    </nav>
+    <nav id="hamburger-nav">
+      <div class="logo">Monica</div>
+      <div class="hamburger-menu">
+        <div class="hamburger-icon" onclick="toggleMenu()">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+        <div class="menu-links">
+          <li><a href="#about" onclick="toggleMenu()">About</a></li>
+          <li><a href="#experience" onclick="toggleMenu()">Experience</a></li>
+          <li><a href="#projects" onclick="toggleMenu()">Projects</a></li>
+          <li><a href="#contact" onclick="toggleMenu()">Contact</a></li>
+        </div>
+      </div>
+    </nav>
+    <section id="profile">
+      <div class="section__pic-container">
+        <img src="C:\Users\mssiv\OneDrive\Desktop\portfolio.html\korean-ai-photo-snow---insert-7.jpg" alt="monica profile picture" />
+      </div>
+      <div class="section__text">
+        <p class="section_text_p1">Hello, I'm</p>
+        <h1 class="title">Monica</h1>
+        <p class="section_text_p2">Web Developer</p>
+        <div class="btn-container">
+         <a href="C:\Users\mssiv\OneDrive\Desktop\portfolio.html\1000038852_240815_172833.pdf">
+          <button 
+            class="btn btn-color-2" >
+            
+            Download CV
+          </button>
+           </a>
+          <button class="btn btn-color-1" onclick="location.href='https://mail.google.com/'">
+            Contact Info
+          </button>
+        </div>
+        <div id="socials-container">
+          <img
+            src="C:\Users\mssiv\OneDrive\Desktop\portfolio.html\download.png"
+            alt="My LinkedIn profile"
+            class="icon"
+            onclick="location.href='https://linkedin.com/'"
+          />
+          <img
+            src="C:\Users\mssiv\OneDrive\Desktop\portfolio.html\s.png"
+            alt="My Github profile"
+            class="icon"
+            onclick="location.href='https://github.com/'"
+          />
+        </div>
+      </div>
+    </section>
+    <section id="about">
+      <p class="section_text_p1">Get To Know More</p>
+      <h1 class="title">About Me</h1>
+      <div class="section-container">
+        <!-- <div class="section__pic-container">
+           <img
+            src="./assets/about-pic.png"
+            alt="Profile picture"
+            class="about-pic"
+          /> -->
+        <!-- </div> --> 
+        <div class="about-details-container">
+          <div class="about-containers">
+            <div class="details-container">
+              <img
+                src="C:\Users\mssiv\OneDrive\Desktop\portfolio.html\ebj.jpg"
+                alt="Experience icon"
+                class="icon"
+              />
+              <h3>Experience</h3>
+              <p>6+ months <br />Web Development</p>
+            </div>
+            <div class="details-container">
+              <img
+                src="C:\Users\mssiv\OneDrive\Desktop\portfolio.html\yy.jpg"
+                alt="Education icon"
+                class="icon"
+              />
+              <h3>Education</h3>
+              <p>B.TECH Information Technology</p>
+            </div>
+          </div>
+          <div class="text-container">
+            <p>
+              As a web developer, I have a strong foundation in coding languages like HTML, CSS, and JavaScript, which allows me to build and maintain engaging websites. I’m skilled in both front-end and back-end development, enabling me to create seamless user experiences and handle server-side logic. My problem-solving abilities and attention to detail help me troubleshoot issues and optimize performance. I stay updated with frameworks and libraries to keep my skills sharp and relevant in the ever-evolving tech landscape. Overall, I thrive on creativity and innovation in the digital world!
+            </p>
+          </div>
+        </div>
+      </div>
+      <img
+        src="C:\Users\mssiv\OneDrive\Desktop\portfolio.html\ett.jpg"
+        alt="Arrow icon"
+        class="icon arrow"
+        onclick="location.href='./#experience'"
+      />
+    </section>
+    <section id="experience">
+      <p class="section_text_p1">Explore My</p>
+      <h1 class="title">Experience</h1>
+      <div class="experience-details-container">
+        <div class="about-containers">
+          <div class="details-container">
+            <h2 class="experience-sub-title">Web Development</h2>
+            <div class="article-container">
+              <article>
+                <img
+                  src="C:\Users\mssiv\OneDrive\Desktop\portfolio.html\as.jpg"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>HTML</h3>
+                  <p>Experienced</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="C:\Users\mssiv\OneDrive\Desktop\portfolio.html\fr.jpg"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>CSS</h3>
+                  <p>Experienced</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="C:\Users\mssiv\OneDrive\Desktop\portfolio.html\hh.jpg"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>SASS</h3>
+                  <p>Beginner</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="C:\Users\mssiv\OneDrive\Desktop\portfolio.html\ew.jpg"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>JavaScript</h3>
+                  <p>Basic</p>
+                </div>
+              </article>
+              
+            </div>
+          </div>
+          <div class="details-container">
+            <h2 class="experience-sub-title">Skill Software</h2>
+            <div class="article-container">
+              <article>
+                <img
+                  src="C:\Users\mssiv\OneDrive\Desktop\portfolio.html\gg.jpg"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>Java</h3>
+                  <p>Basic</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="C:\Users\mssiv\OneDrive\Desktop\portfolio.html\rh.jpg"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>Node JS</h3>
+                  <p>Basic</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="C:\Users\mssiv\OneDrive\Desktop\portfolio.html\de.jpg"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>Python</h3>
+                  <p>Intermediate</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="C:\Users\mssiv\OneDrive\Desktop\portfolio.html\s.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>Git</h3>
+                  <p>Intermediate</p>
+                </div>
+              </article>
+            </div>
+          </div>
+        </div>
+      </div>
+      <img
+        src="C:\Users\mssiv\OneDrive\Desktop\portfolio.html\ett.jpg"
+        alt="Arrow icon"
+        class="icon arrow"
+        onclick="location.href='./#projects'"
+      />
+    </section>
+    <section id="projects">
+      <p class="section_text_p1">Browse My Recent</p>
+      <h1 class="title">Projects</h1>
+      <div class="experience-details-container">
+        <div class="about-containers">
+          <div class="details-container color-container">
+            <div class="article-container">
+              <img
+                src="C:\Users\mssiv\OneDrive\Desktop\portfolio.html\rrrrrrrrrrr.jpg"
+                alt="Project 1"
+                class="project-img"
+              />
+            </div>
+            <h2 class="experience-sub-title project-title">Project One</h2>
+            <div class="btn-container">
+              <button
+                class="btn btn-color-2 project-btn"
+                onclick="location.href='https://github.com/'"
+              >
+                Github
+              </button>
+              <button
+                class="btn btn-color-2 project-btn"
+                onclick="location.href='https://github.com/'"
+              >
+                Live Demo
+              </button>
+            </div>
+          </div>
+          <div class="details-container color-container">
+            <div class="article-container">
+              <img
+                src="C:\Users\mssiv\OneDrive\Desktop\portfolio.html\rrrrrrrrrrr.jpg"
+                alt="Project 2"
+                class="project-img"
+              />
+            </div>
+            <h2 class="experience-sub-title project-title">Project Two</h2>
+            <div class="btn-container">
+              <button
+                class="btn btn-color-2 project-btn"
+                onclick="location.href='https://github.com/'"
+              >
+                Github
+              </button>
+              <button
+                class="btn btn-color-2 project-btn"
+                onclick="location.href='https://github.com/'"
+              >
+                Live Demo
+              </button>
+            </div>
+          </div>
+          <div class="details-container color-container">
+            <div class="article-container">
+              <img
+                src="C:\Users\mssiv\OneDrive\Desktop\portfolio.html\rrrrrrrrrrr.jpg"
+                alt="Project 3"
+                class="project-img"
+              />
+            </div>
+            <h2 class="experience-sub-title project-title">Project Three</h2>
+            <div class="btn-container">
+              <button
+                class="btn btn-color-2 project-btn"
+                onclick="location.href='https://github.com/'"
+              >
+                Github
+              </button>
+              <button
+                class="btn btn-color-2 project-btn"
+                onclick="location.href='https://github.com/'"
+              >
+                Live Demo
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <img
+        src="C:\Users\mssiv\OneDrive\Desktop\portfolio.html\ett.jpg"
+        alt="Arrow icon"
+        class="icon arrow"
+        onclick="location.href='./#contact'"
+      />
+    </section>
+    <section id="contact">
+      <p class="section_text_p1">Get in Touch</p>
+      <h1 class="title">Contact Me</h1>
+      <div class="contact-info-upper-container">
+        <div class="contact-info-container">
+          <img
+            src="C:\Users\mssiv\OneDrive\Desktop\portfolio.html\th.jpg"
+
+            alt="Email icon"
+            class="icon contact-icon email-icon"
+          />
+          <p><a href="https://mail.google.com/">monica20043@gmail.com</a></p>
+        </div>
+        <div class="contact-info-container">
+          <img
+            src="C:\Users\mssiv\OneDrive\Desktop\portfolio.html\download.png"
+            alt="LinkedIn icon"
+            class="icon contact-icon"
+          />
+          <p><a href="https://www.linkedin.com/">LinkedIn</a></p>
+        </div>
+      </div>
+    </section>
+    <footer>
+    <p>Copyright &copy; 2024 monica. All Rights Reserved.</p>
+    </footer>
+    <script src="main.js"></script>
+  </body>
+</html>
