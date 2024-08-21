@@ -5,7 +5,8 @@ Welcome to my "CodSoft" repository! During my online internship with CodSoft, I 
 
 Projects Included:
 
-Portfolio Project
+Portfolio Project:
+
 This personal portfolio website showcases my skills, experience, and past work. It demonstrates my ability to craft a professional and visually appealing online presence using HTML and CSS.
 
 Landing Page Project:
