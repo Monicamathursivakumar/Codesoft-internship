@@ -8,9 +8,11 @@ Portfolio Project
 This personal portfolio website showcases my skills, experience, and past work. It demonstrates my ability to craft a professional and visually appealing online presence using HTML and CSS.
 
 Landing Page Project
+
 This landing page is designed to grab visitors' attention and drive conversions. It highlights my understanding of responsive design, effective layout, and user experience principles.
 
 Calculator Project
+
 A fully functional calculator that performs basic arithmetic operations. This project allowed me to apply JavaScript to create interactive features and improve user experience.
 
 Technologies Used:
