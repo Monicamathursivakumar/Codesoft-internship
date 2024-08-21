@@ -1,0 +1,203 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #f6f4f2; /* Light Background */
+}
+
+.container {
+    width: 90%;
+    margin: 0 auto;
+}
+
+/* Header Styles */
+.header-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 0;
+    background-color: #f6f4f2; /* White Header */
+}
+
+.logo {
+    font-size: 40px;
+    font-weight: bold;
+    text-decoration: none;
+    color: #425664; /* Primary Color */
+}
+
+.nav {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    gap: 20px;
+}
+
+.nav li a {
+    font-size: 23px;
+    text-decoration: none;
+    color: #425664; /* Primary Color */
+    font-weight: bold;
+}
+
+/* Hero Section */
+.hero {
+    background-color: #425664; /* Primary Color */
+    padding: 60px 0;
+    text-align: center;
+}
+
+.hero h1 {
+    font-size: 48px;
+    color: #f6f4f2; /* Light Text */
+}
+
+.hero p {
+    font-size: 18px;
+    margin: 20px 0;
+    color: #f6f4f2;
+}
+
+.btn-primary {
+    padding: 10px 20px;
+    background-color: #c6ad8f; /* Accent Color */
+    color: #f6f4f2;
+    text-decoration: none;
+    font-size: 18px;
+    border-radius: 5px;
+}
+
+.btn-primary:hover {
+    background-color: #425664; /* Primary Color Hover */
+}
+
+/* Products Section */
+.products-section {
+    padding: 60px 0;
+    background-color: #f6f4f2; /* Light Background */
+}
+
+.product-list {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+}
+
+.product {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    text-align: center;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.product h3 {
+    font-size: 22px;
+    margin: 15px 0;
+    color: #425664; /* Primary Color */
+}
+
+.product p {
+    font-size: 18px;
+    color: #333;
+}
+
+.btn {
+    background-color: #c6ad8f; /* Accent Color */
+    color: #f6f4f2;
+    padding: 10px;
+    text-decoration: none;
+    border-radius: 5px;
+    cursor: pointer;
+    border: none;
+}
+
+.btn:hover {
+    background-color: #425664; /* Primary Color Hover */
+}
+
+/* Cart Section */
+.cart-section {
+    padding: 60px 0;
+    background-color: #f6f4f2;
+}
+
+.cart-section h2 {
+    text-align: center;
+    margin-bottom: 40px;
+    font-size: 32px;
+    color: #425664; /* Primary Color */
+}
+
+/* Payment Section */
+.payment-section {
+    padding: 60px 0;
+    background-color: #425664; /* Accent Color */
+}
+
+.payment-section h2 {
+    text-align: center;
+    margin-bottom: 40px;
+    font-size: 32px;
+    color: #f6f4f2; /* Light Color */
+}
+
+form {
+    max-width: 600px;
+    margin: 0 auto;
+    background-color: #fff;
+    padding: 40px;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.form-group label {
+    color: #425664; /* Primary Color */
+}
+
+.form-group input {
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+/* Footer */
+.footer-container {
+    padding: 20px 0;
+    text-align: center;
+    background-color: #f6f4f2; /* White Footer */
+    color: #425664; /* Primary Color */
+}
+
+/* Contact Section */
+.contact-section {
+    padding: 60px 0;
+    background-color: #f6f4f2;
+}
+
+.contact-section h2 {
+    text-align: center;
+    margin-bottom: 40px;
+    font-size: 32px;
+    color: #425664; /* Primary Color */
+}
+
+.contact-section p {
+    font-size: 18px;
+    text-align: center;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+.contact-section a {
+    color: #425664; /* Primary Color */
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.contact-section a:hover {
+    color: #c6ad8f; /* Accent Color Hover */
+    text-decoration: underline;
+}

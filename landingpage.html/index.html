@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ShoeStore - Your Online Store</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <header>
+        <div class="container header-container">
+            <a href="#home" class="logo">ShoeStore</a>
+            <nav>
+                <ul class="nav">
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#products">Products</a></li>
+                    <li><a href="#cart">Cart</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <!-- Hero Section -->
+        <section id="home" class="hero">
+            <div class="container hero-container">
+                <h1>Welcome to ShoeStore</h1>
+                <p>Find the best shoes at unbeatable prices!</p>
+                <a href="#products" class="btn btn-primary">Shop Now</a>
+            </div>
+        </section>
+
+        <!-- Products Section -->
+        <section id="products" class="products-section">
+            <div class="container">
+                <h2>Featured Products</h2>
+                <div class="product-list">
+                    <!-- Product 1 -->
+                    <div class="product">
+                        <img src="C:\Users\mssiv\OneDrive\Desktop\landingpage.html\VN0A3WMAVNE-HERO.webp" alt="Product 1">
+                        <h3>Nova Stride</h3>
+                        <p>₹2000.00</p>
+                        <button class="btn btn-add-to-cart" data-name="Nova Stride" data-price="2000">Add to Cart</button>
+                    </div>
+                    <!-- Product 2 -->
+                    <div class="product">
+                        <img src="C:\Users\mssiv\OneDrive\Desktop\landingpage.html\Nike-Multi-Color-Casual-Shoes-SDL051199315-1-a2a35.jpg" width="600" height="550" alt="Description of Image">
+                        <h3>Fusion Flex</h3>
+                        <p>₹3000.00</p>
+                        <button class="btn btn-add-to-cart" data-name="Fusion Flex" data-price="3000">Add to Cart</button>
+                    </div>
+                    <!-- Product 3 -->
+                    <div class="product">
+                        <img src="C:\Users\mssiv\OneDrive\Desktop\landingpage.html\Sparx-Blue-Sport-Shoes-SDL271383653-2-e0737.jpg" width="600" height="550" alt="Product 3">
+                        <h3>Cloud Walker</h3>
+                        <p>₹4000.00</p>
+                        <button class="btn btn-add-to-cart" data-name="Cloud Walker" data-price="4000">Add to Cart</button>
+                    </div>
+                     <!-- Product 4 -->
+                    <div class="product">
+                        <img src="C:\Users\mssiv\OneDrive\Desktop\landingpage.html\SOFTRIDE-Mayve-Running-Shoes-Women.avif" width="600" height="550" alt="Product 4">
+                        <h3>Vibe Runner</h3>
+                        <p>₹3500.00</p>
+                        <button class="btn btn-add-to-cart" data-name="Vibe Runner" data-price="3500">Add to Cart</button>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Cart Section -->
+        <section id="cart" class="cart-section">
+            <div class="container">
+                <h2>Your Cart</h2>
+                <div id="cart-items">
+                    <!-- Cart items will be dynamically added here -->
+                </div>
+                <div class="cart-summary">
+                    <h3>Total Amount: ₹<span id="total-amount">0.00</span></h3>
+                    <a href="#payment" class="btn btn-primary">Proceed to Payment</a>
+                </div>
+            </div>
+        </section>
+
+        <!-- Payment Section -->
+        <section id="payment" class="payment-section">
+            <div class="container">
+                <h2>Payment Information</h2>
+                <form id="payment-form">
+                    <div class="form-group">
+                        <label for="cardholder-name">Cardholder's Name</label>
+                        <input type="text" id="cardholder-name" placeholder="John Doe" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="card-number">Card Number</label>
+                        <input type="text" id="card-number" placeholder="1234 5678 9101 1121" maxlength="16" required>
+                    </div>
+                    <div class="form-row">
+                        <div class="form-group">
+                            <label for="expiry-date">Expiry Date</label>
+                            <input type="text" id="expiry-date" placeholder="MM/YY" maxlength="5" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="cvv">CVV</label>
+                            <input type="text" id="cvv" placeholder="123" maxlength="3" required>
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label for="billing-address">Billing Address</label>
+                        <input type="text" id="billing-address" placeholder="123 Main St." required>
+                    </div>
+                    <button type="submit" class="btn btn-primary">Submit Payment</button>
+                </form>
+            </div>
+        </section>
+        <!-- Contact Section -->
+<section id="contact" class="contact-section">
+    <div class="container">
+        <h2>Contact Us</h2>
+        <p>If you have any questions, feel free to reach us at:</p>
+        <p>Email: <a href="mailto:support@eshop.com">support@eshop.com</a></p>
+        <p>Phone: <a href="tel:+1234567890">+91 95436 97563</a></p>
+    </div>
+</section>
+
+    </main>
+
+    <footer>
+        <div class="container footer-container">
+            <p>&copy; 2024 ShoeStore. All Rights Reserved.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
